@@ -1,0 +1,23 @@
+# === Python / virtualenv ===
+central/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+pip-wheel-metadata/
+
+# === Ansible runtime ===
+*.retry
+
+# === Entornos locales / secretos opcionales ===
+.env
+.envrc
+
+# === IDE / editores ===
+.vscode/
+.idea/
+
+# === SO (macOS / Windows) ===
+.DS_Store
+Thumbs.db
+
