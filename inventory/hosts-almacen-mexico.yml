@@ -1,0 +1,5 @@
+all:
+  children:
+    forti:
+      hosts:
+        almacen-mimpo:

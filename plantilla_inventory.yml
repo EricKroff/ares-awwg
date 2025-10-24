@@ -1,0 +1,9 @@
+all:
+  children:
+    cisco:
+      hosts:
+        # Aqui los dispositivos cisco
+
+    forti:
+      hosts:
+        # Aqui los dispositivos forti

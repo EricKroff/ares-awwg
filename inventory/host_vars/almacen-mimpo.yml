@@ -1,0 +1,4 @@
+ansible_host: 172.24.34.254
+ansible_user: comms-management
+ansible_password: "{{ accounts[ansible_user].password }}"
+ansible_connection: ssh
