@@ -1,0 +1,9 @@
+---
+- name: Ping mínimo en Cisco IOS
+  hosts: cisco 
+  gather_facts: false
+  tasks:
+    - name: Ping a 8.8.8.8 desde el equipo
+      cisco.ios.ios_ping:
+        dest: "{{ dest | default('8.8.8.8') }}"
+        count: 3

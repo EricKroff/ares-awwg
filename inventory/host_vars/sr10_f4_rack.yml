@@ -1,0 +1,5 @@
+ansible_host: 172.24.15.3
+ansible_user: comms-management
+ansible_password: "{{ accounts[ansible_user].password }}"
+
+ansible_ssh_common_args: '-oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-rsa -oCiphers=+aes128-cbc'

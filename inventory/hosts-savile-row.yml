@@ -1,0 +1,9 @@
+all:
+  children:
+    cisco:
+      hosts:
+        sr10_f4_rack:
+        sw-acc1-hktsr-2:
+#    forti:
+#      hosts:
+        # Aqui los dispositivos forti
